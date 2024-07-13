@@ -1,2 +1,3 @@
 # MediaConverter
-Media-to-Media conversion using Python and FFMPEG.
+Media-to-Media conversion using FFMPEG and ffmpeg-python library
+
