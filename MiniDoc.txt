@@ -1,0 +1,2 @@
+1. calling functions in JSX format by {function_name}, assuming return type of function is JSX formatted.
+2. Break pages/moving parts into different files/components.
