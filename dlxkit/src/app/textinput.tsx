@@ -10,11 +10,13 @@ export default function textInput() {
     }
 
     return (
+      <div>
         <input
           type="text"
           value={inputVal}
           onChange={handleChange}
           placeholder="Paste link here"
         />
+      </div>
     );
 }
