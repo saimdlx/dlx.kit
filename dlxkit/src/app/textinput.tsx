@@ -15,7 +15,7 @@ export default function textInput() {
           type="text"
           value={inputVal}
           onChange={handleChange}
-          placeholder="Paste link here"
+          placeholder="Paste A Link Here."
         />
       </div>
     );
