@@ -10,13 +10,18 @@ export default function textInput() {
     }
 
     return (
-      <div>
+      <div className="flex gap-x-2 font-bold text-black">
         <input
           type="text"
           value={inputVal}
           onChange={handleChange}
           placeholder="Paste A Link Here."
+          className="rounded-sm bg-slate-100 border-1 border-gray-400 px-4 py-1"
         />
+
+        <button className="rounded-sm bg-slate-100 border-1 border-gray-400 px-4 py-1">mp3</button>
+        <button className="rounded-sm bg-slate-100 border-1 border-gray-400 px-4 py-1">mp4</button>
+        
       </div>
     );
 }
